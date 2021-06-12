@@ -10,7 +10,7 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp; Bob DeFi Demo
+          &nbsp; Bob DeFi Demo - Rinkeby Test Network
         </a>
 
         <ul className="navbar-nav px-3">

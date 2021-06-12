@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 contract BobToken {
     string public name = "Bob Token";
     string public symbol = "BOB";
-    uint256 public totalSupply = 50000000000000000000000; // 50,000
+    uint256 public totalSupply = 500000000000000000000000; // 500,000
     uint8 public decimals = 18;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);

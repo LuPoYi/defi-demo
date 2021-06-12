@@ -151,10 +151,10 @@ class App extends Component {
       });
   };
 
-  claimAdaToken = () => {
+  claimAirToken = () => {
     this.setState({ loading: true });
     this.state.publicSale.methods
-      .claimAdaToken()
+      .claimAirToken()
       .send({ from: this.state.account })
       .on("transactionHash", (hash) => {
         this.setState({ loading: false });
@@ -162,6 +162,7 @@ class App extends Component {
   };
 
   purchaseToken = (amount) => {
+    console.log("purchaseToken", amount);
     this.setState({ loading: true });
     this.state.airToken.methods
       .approve(this.state.publicSale._address, amount)
@@ -252,7 +253,8 @@ class App extends Component {
           bobTokenBalance={this.state.bobTokenBalance}
           stakingBalance={this.state.stakingBalance}
           hasClaimBob={this.state.hasClaimBob}
-          claimToken={this.claimToken}
+          claimAirToken={this.claimAirToken}
+          claimBobToken={this.claimBobToken}
           purchaseToken={this.purchaseToken}
           startGame={this.startGame}
           joinGame={this.joinGame}

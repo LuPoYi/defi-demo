@@ -258,21 +258,14 @@
   "ast": {
     "absolutePath": "/Users/bob/src/temp/defi_tutorial_public_sale/src/contracts/AirToken.sol",
     "exportedSymbols": {
-      "AirToken": [
-        180
-      ]
+      "AirToken": [180]
     },
     "id": 181,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:0"
       },
@@ -283,9 +276,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 180,
-        "linearizedBaseContracts": [
-          180
-        ],
+        "linearizedBaseContracts": [180],
         "name": "AirToken",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -997,10 +988,7 @@
                       "id": 59,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "729:7:0",
                       "typeDescriptions": {
@@ -1875,10 +1863,7 @@
                       "id": 130,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "1300:7:0",
                       "typeDescriptions": {
@@ -2034,10 +2019,7 @@
                       "id": 138,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "1345:7:0",
                       "typeDescriptions": {
@@ -2582,21 +2564,14 @@
   "legacyAST": {
     "absolutePath": "/Users/bob/src/temp/defi_tutorial_public_sale/src/contracts/AirToken.sol",
     "exportedSymbols": {
-      "AirToken": [
-        180
-      ]
+      "AirToken": [180]
     },
     "id": 181,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:0"
       },
@@ -2607,9 +2582,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 180,
-        "linearizedBaseContracts": [
-          180
-        ],
+        "linearizedBaseContracts": [180],
         "name": "AirToken",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -3321,10 +3294,7 @@
                       "id": 59,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "729:7:0",
                       "typeDescriptions": {
@@ -4199,10 +4169,7 @@
                       "id": 130,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "1300:7:0",
                       "typeDescriptions": {
@@ -4358,10 +4325,7 @@
                       "id": 138,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        789,
-                        790
-                      ],
+                      "overloadedDeclarations": [789, 790],
                       "referencedDeclaration": 789,
                       "src": "1345:7:0",
                       "typeDescriptions": {
@@ -4908,6 +4872,12 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x137e21eeaca7ce2473e4641d54f9e2ff881862b1",
+      "transactionHash": "0x87466be05b61094ccb91de2fcf721777c93effa2f0662ae11afe75a6aa0438a2"
+    },
     "5777": {
       "events": {
         "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
@@ -4962,12 +4932,12 @@
         }
       },
       "links": {},
-      "address": "0x5f8a7580b7f6841d430fc1758a15C114258712E7",
-      "transactionHash": "0x2db5501a0e2f19cf5363d4bc9b81eb0a2c9a723e40d6b772d42325409ce36906"
+      "address": "0x0889bA0CB397bEcFe87A5E52Dc93DEc192692270",
+      "transactionHash": "0x961d8ed58d8817fbf37b883208e742f1ea6e3f2041d77c048898652bd0cf5e65"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-06-09T13:06:21.851Z",
+  "updatedAt": "2021-06-09T13:48:38.623Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

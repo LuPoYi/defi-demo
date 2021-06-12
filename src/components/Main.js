@@ -34,7 +34,7 @@ class Main extends Component {
                 <form
                   onSubmit={(event) => {
                     event.preventDefault();
-                    this.props.claimToken();
+                    this.props.claimAirToken();
                   }}
                 >
                   <button
@@ -50,7 +50,7 @@ class Main extends Component {
                 <form
                   onSubmit={(event) => {
                     event.preventDefault();
-                    this.props.claimToken();
+                    this.props.claimBobToken();
                   }}
                 >
                   <button
@@ -96,7 +96,7 @@ class Main extends Component {
                     this.input = input;
                   }}
                   className="form-control form-control-lg"
-                  placeholder="0"
+                  placeholder="0~100"
                   required
                 />
                 <div className="input-group-append">

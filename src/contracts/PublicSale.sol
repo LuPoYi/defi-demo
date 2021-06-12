@@ -96,8 +96,8 @@ contract PublicSale {
     }
 
     // claim air
-    function claimAdaToken() public {
-        airToken.transfer(msg.sender, 1000000000000000000000000); // 10,000
+    function claimAirToken() public {
+        airToken.transfer(msg.sender, 10000000000000000000000); // 10,000
     }
 
     // buy (AIR purchase to BOB) 1 BOB = 100 AIR
@@ -109,6 +109,6 @@ contract PublicSale {
         );
 
         airToken.transferFrom(msg.sender, address(this), _amount);
-        bobToken.transfer(msg.sender, _amount / 100);
+        bobToken.transfer(msg.sender, _amount * 100);
     }
 }
